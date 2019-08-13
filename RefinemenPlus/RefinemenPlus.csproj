@@ -50,6 +50,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Methods.cs" />
+    <Compile Include="RefinementPlusMod.cs" />
     <Compile Include="TemplateMod.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
