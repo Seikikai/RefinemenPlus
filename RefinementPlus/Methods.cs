@@ -32,8 +32,7 @@ namespace RefinementPlus
 				recipe.nameDisplay = ComplexRecipe.RecipeNameDisplay.IngredientToResult;
 
 				recipesIDs.Add(recipe.id);
-			}
-		}
+		}	}
 
 		public void burnRot()
 		{
@@ -41,7 +40,7 @@ namespace RefinementPlus
 			string descBurn = "Burn rotten food";
 
 			ComplexRecipe.RecipeElement[] input = new ComplexRecipe.RecipeElement[]
-			{	new ComplexRecipe.RecipeElement("RotPile", 100) };
+			{	new ComplexRecipe.RecipeElement("RotPile", 100)	};
 
 			ComplexRecipe.RecipeElement[] output = new ComplexRecipe.RecipeElement[]
 			{	new ComplexRecipe.RecipeElement(coal, 50)	};

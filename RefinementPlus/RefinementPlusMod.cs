@@ -6,7 +6,7 @@ using UnityEngine;
 namespace RefinementPlus
 {
 
-	public class RefinementPlusData
+	public class RefinementPlus_Data
 	{
 		public static List<string> recipesIDs = new List<string>();
 
@@ -39,7 +39,7 @@ namespace RefinementPlus
 	*/
 
 	[HarmonyPatch(typeof(KilnConfig), "ConfgiureRecipes")]
-	public class RefinementPlusKilnRecipes
+	public class RefinementPlus_KilnRecipes
 	{
 		public static void Postfix()
 		{

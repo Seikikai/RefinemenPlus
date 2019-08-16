@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29201.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefinementPlus", "RefinemenPlus\RefinementPlus.csproj", "{C8BF543A-591A-4C22-97C6-D8A1B349FC0D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefinementPlus", "RefinementPlus\RefinementPlus.csproj", "{C8BF543A-591A-4C22-97C6-D8A1B349FC0D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
