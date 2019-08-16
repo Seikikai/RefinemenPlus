@@ -29,7 +29,7 @@ namespace RefinementPlus
 				recipe.time = 55f;
 				recipe.description = string.Format(descBurn, vest.Value);
 				recipe.fabricators = new List<Tag> { TagManager.Create("Kiln") };
-				recipe.nameDisplay = ComplexRecipe.RecipeNameDisplay.Ingredient;
+				recipe.nameDisplay = ComplexRecipe.RecipeNameDisplay.IngredientToResult;
 
 				recipesIDs.Add(recipe.id);
 			}
@@ -50,7 +50,7 @@ namespace RefinementPlus
 			recipe.time = 35f;
 			recipe.description = descBurn;
 			recipe.fabricators = new List<Tag> { TagManager.Create("Kiln") };
-			recipe.nameDisplay = ComplexRecipe.RecipeNameDisplay.Ingredient;
+			recipe.nameDisplay = ComplexRecipe.RecipeNameDisplay.IngredientToResult;
 
 			recipesIDs.Add(recipe.id);
 		}
@@ -75,7 +75,7 @@ namespace RefinementPlus
 			recipe.time = 100f;
 			recipe.description = string.Format(desc, clay, dirt, slime);
 			recipe.fabricators = new List<Tag> { TagManager.Create("RockCrusher") };
-			recipe.nameDisplay = ComplexRecipe.RecipeNameDisplay.Ingredient;
+			recipe.nameDisplay = ComplexRecipe.RecipeNameDisplay.IngredientToResult;
 
 			recipesIDs.Add(recipe.id);
 		}
@@ -130,7 +130,7 @@ namespace RefinementPlus
 			recipe.time = 40f;
 			recipe.description = string.Format(desc, fossil, lime, sand);
 			recipe.fabricators = new List<Tag> { TagManager.Create("RockCrusher") };
-			recipe.nameDisplay = ComplexRecipe.RecipeNameDisplay.Ingredient;
+			recipe.nameDisplay = ComplexRecipe.RecipeNameDisplay.IngredientToResult;
 
 			recipesIDs.Add(recipe.id);
 		}
@@ -151,7 +151,7 @@ namespace RefinementPlus
 			recipe.time = 80f;
 			recipe.description = string.Format(desc, mafic, regolith);
 			recipe.fabricators = new List<Tag> { TagManager.Create("RockCrusher") };
-			recipe.nameDisplay = ComplexRecipe.RecipeNameDisplay.Ingredient;
+			recipe.nameDisplay = ComplexRecipe.RecipeNameDisplay.IngredientToResult;
 
 			recipesIDs.Add(recipe.id);
 		}
@@ -188,7 +188,7 @@ namespace RefinementPlus
 				recipe.time = 50f;
 				recipe.description = string.Format(desc, mineral.Key, sand, mineral.Value);
 				recipe.fabricators = new List<Tag> { TagManager.Create("RockCrusher") };
-				recipe.nameDisplay = ComplexRecipe.RecipeNameDisplay.Ingredient;
+				recipe.nameDisplay = ComplexRecipe.RecipeNameDisplay.IngredientToResult;
 
 				recipesIDs.Add(recipe.id);
 			}
@@ -223,7 +223,7 @@ namespace RefinementPlus
 				recipe.time = 50f;
 				recipe.description = string.Format(desc, ore.Key, sand, ore.Value);
 				recipe.fabricators = new List<Tag> { TagManager.Create("RockCrusher") };
-				recipe.nameDisplay = ComplexRecipe.RecipeNameDisplay.Ingredient;
+				recipe.nameDisplay = ComplexRecipe.RecipeNameDisplay.IngredientToResult;
 
 				recipesIDs.Add(recipe.id);
 			}
@@ -258,7 +258,7 @@ namespace RefinementPlus
 				recipe.time = 50f;
 				recipe.description = string.Format(desc, refined.Key, sand, refined.Value);
 				recipe.fabricators = new List<Tag> { TagManager.Create("RockCrusher") };
-				recipe.nameDisplay = ComplexRecipe.RecipeNameDisplay.Ingredient;
+				recipe.nameDisplay = ComplexRecipe.RecipeNameDisplay.IngredientToResult;
 
 				recipesIDs.Add(recipe.id);
 			}
@@ -288,7 +288,7 @@ namespace RefinementPlus
 				recipe.time = 120f;
 				recipe.description = string.Format(desc, organic, dirt, fert);
 				recipe.fabricators = new List<Tag> { TagManager.Create("RockCrusher") };
-				recipe.nameDisplay = ComplexRecipe.RecipeNameDisplay.Ingredient;
+				recipe.nameDisplay = ComplexRecipe.RecipeNameDisplay.IngredientToResult;
 
 				recipesIDs.Add(recipe.id);
 
@@ -364,7 +364,7 @@ namespace RefinementPlus
 				recipeSeedToCoal.description = string.Format
 					(descBurn, seed.Value, ElementLoader.FindElementByHash(SimHashes.Carbon).name);
 				recipeSeedToCoal.fabricators = new List<Tag> { TagManager.Create("Kiln") };
-				recipeSeedToCoal.nameDisplay = ComplexRecipe.RecipeNameDisplay.Ingredient;
+				recipeSeedToCoal.nameDisplay = ComplexRecipe.RecipeNameDisplay.IngredientToResult;
 
 				recipesIDs.Add(recipeSeedToCoal.id);
 			}
@@ -386,7 +386,7 @@ namespace RefinementPlus
 			recipe.description = string.Format
 				(BUILDINGS.PREFABS.ROCKCRUSHER.RECIPE_DESCRIPTION, ice.ProperName(), snow.ProperName());
 			recipe.fabricators = new List<Tag> { TagManager.Create("RockCrusher") };
-			recipe.nameDisplay = ComplexRecipe.RecipeNameDisplay.Ingredient;
+			recipe.nameDisplay = ComplexRecipe.RecipeNameDisplay.IngredientToResult;
 
 			recipesIDs.Add(recipe.id);
 		}
