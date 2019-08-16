@@ -7,8 +7,8 @@
     <ProjectGuid>{C8BF543A-591A-4C22-97C6-D8A1B349FC0D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>RefinemenPlus</RootNamespace>
-    <AssemblyName>RefinemenPlus</AssemblyName>
+    <RootNamespace>RefinementPlus</RootNamespace>
+    <AssemblyName>RefinementPlus</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
